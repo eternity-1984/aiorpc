@@ -24,10 +24,10 @@ setup(
     ],
     install_requires=[
         'msgpack-python',
-        'uvloop',
     ],
     tests_require=[
         'nose',
+        'uvloop',
     ],
     test_suite='nose.collector'
 )
